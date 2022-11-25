@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Smythe&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Tushar's Diner</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="header-container">
+        <div class="header-image">
+          <h3 class="title">Jimmy's Diner</h3>
+          <p class="sub-title">The best burgers and pizzas in town.</p>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="menu" id="menu"></section>
+
+      <section class="order-container" id="order-container">
+        <h2 class="center">Your Order</h2>
+        <div id="order"></div>
+        <div class="total-price-container">
+          <h4>Total Price:</h4>
+          <h4 id="total-price"></h4>
+        </div>
+        <button
+          class="complete-order-btn"
+          data-completeorder="complete-order-btn"
+        >
+          Complete Order
+        </button>
+      </section>
+
+      <section class="modal hidden" id="payment-modal">
+        <button class="close-btn" data-close="close-btn">X</button>
+        <p class="modal-header">Enter card details</p>
+        <form id="form-payment">
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your name"
+            required
+          />
+
+          <input
+            type="number"
+            id="card-number"
+            name="card-number"
+            placeholder="Enter card number"
+            required
+          />
+
+          <input type="number" id="cvv" name="cvv" placeholder="CVV" required />
+
+          <input type="submit" value="Pay" id="pay-btn" class="complete-order-btn"/>
+        </form>
+      </section>
+    </main>
+  </body>
+
+  <script src="/app.js" type="module"></script>
+</html>

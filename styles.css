@@ -1,0 +1,190 @@
+body {
+    margin: 0 auto;
+    font-family: Smythe;
+    width: 600px;
+}
+
+h3 {
+    padding: 46px 0 0 46px;
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 24px;
+}
+
+p {
+    padding: 19px 0 0 46px;
+    font-weight: 400;
+    font-size: 22.4216px;
+    line-height: 14px;
+}
+
+h3,
+p {
+    margin: 0;
+    color: white;
+
+}
+
+.header-image {
+    background-image: url('images/burger.jpg');
+    width: 600px;
+    height: 167px;
+    background-size: cover;
+}
+
+.item-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 45px;
+    border-bottom: 1px solid grey;
+}
+
+.inner-item-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-image {
+    width: 70px;
+    height: 89px;
+    margin-right: 30px;
+}
+
+.item-name {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 17px;
+    color: #000000;
+    margin-bottom: 8px;
+    padding: 0;
+}
+
+.small-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #8B8B8B;
+    margin-top: 0;
+    margin-bottom: 8px;
+    padding: 0;
+}
+
+.item-price {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    margin-top: 0;
+    margin-bottom: 50px;
+    padding: 0;
+}
+
+.add-btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1.5px solid #DEDEDE;
+    font-size: larger;
+    cursor: pointer;
+}
+
+.remove-btn {
+    border: none;
+    width: 77px;
+    height: 22px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    color: #BBBBBB;
+    background-color: white;
+    cursor: pointer;
+}
+
+.complete-order-btn {
+    width: 508px;
+    height: 60px;
+    background: #16DB99;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 3px;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin: 0 auto 10px auto;
+    cursor: pointer;
+}
+
+.close-btn {
+    border: none;
+    margin: 5px;
+    color: red;
+    border-radius: 50%;
+    background: #FFFFFF;
+    cursor: pointer;
+
+}
+
+.order-item-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.total-price-container {
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid #393333;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 24px;
+}
+
+.hidden {
+    display: none;
+}
+
+.center {
+    text-align: center;
+}
+
+.modal {
+    position: fixed;
+    border: 1px solid #757575;
+    top: 25px;
+    bottom: 15px;
+    width: 524px;
+    margin: 0 auto;
+    background: #FFFFFF;
+}
+
+.modal-header {
+    color: black;
+    text-align: center;
+    width: 304.37px;
+    height: 40.92px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+}
+
+.modal form input {
+    display: block;
+    width: 300px;
+    height: 30px;
+    margin: 23px auto;
+}
+
+.message-container {
+    margin: 0 auto;
+    width: 504px;
+    height: 120px;
+    background: #ECFDF5;
+    border-radius: 3px;
+}
+
+.order-message {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 17px;
+    color: #065F46;
+}
